@@ -1,0 +1,3 @@
+This is a Demo twitter app. It can post tweets in http://yamba.newcircle.com/ and fetches tweets from that website. It stores the tweets in a local SQL database.
+It has a menu that contains settings, where you can select your tweet receiving interval, stop/start receiving tweets, and a refresh which will instantly get all the latest tweets from the website.
+It has a filter tweets option that can filter tweets by user name and time. 

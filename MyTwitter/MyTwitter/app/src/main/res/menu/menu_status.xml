@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.spring2016ee5453classrom.mytwitter.StatusActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/service_start"
+        android:title="@string/menu_startService"
+        />
+    <item
+        android:id="@+id/service_stop"
+        android:title="@string/menu_stopService"
+        />
+    <item
+        android:id="@+id/service_refresh"
+        android:title="@string/menu_refreshService"
+        />
+    <item
+        android:id="@+id/activity_status"
+        android:title="@string/status"
+        />
+</menu>

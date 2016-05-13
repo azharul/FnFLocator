@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MyTwitter</string>
+    <string name="action_settings">Settings</string>
+    <string name="status_title">Status Update</string>
+    <string name="status_update">Update Status</string>
+    <string name="update_button_text">Update!</string>
+    <string name="status_hint">Please enter your status</string>
+    <string name="menu_startService">Start Service</string>
+    <string name="menu_stopService">Stop Service</string>
+    <string name="menu_refreshService">Refresh</string>
+    <string name="username">User</string>
+    <string name="username_summary">Enter your user name</string>
+    <string name="password">Password</string>
+    <string name="password_summary">Enter your password</string>
+    <string name="server">Server</string>
+    <string name="server_summary">Enter your server URL</string>
+    <string name="delay_summary">Choose synce frequency</string>
+    <string name="delay">Sync</string>
+
+    <string name="status">Post Status</string>
+
+    <string-array name="delayNames">
+        <item>10 seconds</item>
+        <item>5 mins</item>
+        <item>30 mins</item>
+        <item>1 hour</item>
+    </string-array>
+
+    <string-array name="delayValues">
+        <item>10</item>
+        <item>300</item>
+        <item>1800</item>
+        <item>3600</item>
+    </string-array>
+    <string name="title_activity_timeline">Timeline</string>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:title="@string/username"
+        android:summary="@string/username_summary"
+        android:key="username"
+        />
+
+    <EditTextPreference
+        android:title="@string/password"
+        android:summary="@string/password_summary"
+        android:key="password"
+        android:password="true"
+        />
+
+    <EditTextPreference
+        android:title="@string/server"
+        android:summary="@string/server_summary"
+        android:key="server"
+        />
+
+    <ListPreference
+        android:title="@string/delay"
+        android:key="delay"
+        android:summary="@string/delay_summary"
+        android:entries="@array/delayNames"
+        android:entryValues="@array/delayValues"
+        />
+
+</PreferenceScreen>
