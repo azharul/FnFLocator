@@ -1,0 +1,19 @@
+-keep class com.mysampleapp.MyClock {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.mysampleapp.SplashActivity { <init>(); }
+-keep class com.mysampleapp.MainActivity { <init>(); }
+-keep class com.mysampleapp.ViewActivity { <init>(); }
+-keep class com.mysampleapp.LoginActivity { <init>(); }
+-keep class com.mysampleapp.MainMenuActivity { <init>(); }
+-keep class com.mysampleapp.CreateClockActivity { <init>(); }
+-keep class com.mysampleapp.DisplayClockActivity { <init>(); }
+-keep class com.mysampleapp.PreferenceActivity { <init>(); }
+-keep class com.mysampleapp.RefreshService { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

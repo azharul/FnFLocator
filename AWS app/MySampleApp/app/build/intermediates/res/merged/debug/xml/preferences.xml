@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <Preference
+        android:title="@string/username"
+        android:summary="@string/username_summary"
+        android:key="username">
+    </Preference>
+
+
+    <ListPreference
+        android:title="@string/refresh_rate"
+        android:key="refresh"
+        android:summary="@string/refresh_summary"
+        android:entries="@array/refreshNames"
+        android:entryValues="@array/refreshValues"
+        />
+
+    <ListPreference
+        android:title="@string/mode"
+        android:key="mode"
+        android:summary="@string/mode_summary"
+        android:entries="@array/modeNames"
+        android:entryValues="@array/modeNames"/>
+
+    <PreferenceCategory
+        android:title="@string/home">
+        <CheckBoxPreference
+            android:title="@string/GPS"
+            android:key="home_GPS"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:title="@string/bluetooth"
+            android:key="home_bluetooth"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:title="@string/wifi"
+            android:key="home_wifi"
+            android:defaultValue="false"/>
+        <EditTextPreference
+            android:title="@string/home_value"
+            android:key="home_value"
+            android:summary="@string/home_value_hint"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/school">
+        <CheckBoxPreference
+            android:title="@string/GPS"
+            android:key="school_GPS"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:title="@string/bluetooth"
+            android:key="school_bluetooth"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:title="@string/wifi"
+            android:key="school_wifi"
+            android:defaultValue="false"/>
+        <EditTextPreference
+            android:title="@string/home_value"
+            android:key="school_value"
+            android:summary="@string/home_value_hint"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/work">
+        <CheckBoxPreference
+            android:title="@string/GPS"
+            android:key="work_GPS"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:title="@string/bluetooth"
+            android:key="work_bluetooth"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:title="@string/wifi"
+            android:key="work_wifi"
+            android:defaultValue="false"/>
+        <EditTextPreference
+            android:title="@string/home_value"
+            android:key="work_value"
+            android:summary="@string/home_value_hint"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/traveling">
+        <CheckBoxPreference
+            android:title="@string/GPS"
+            android:key="traveling_GPS"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:title="@string/bluetooth"
+            android:key="traveling_bluetooth"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:title="@string/wifi"
+            android:key="traveling_wifi"
+            android:defaultValue="false"/>
+        <EditTextPreference
+            android:title="@string/home_value"
+            android:key="traveling_value"
+            android:summary="@string/home_value_hint"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
